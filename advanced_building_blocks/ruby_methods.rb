@@ -62,7 +62,7 @@ module Enumerable
       if block_given?
         container << yield(el)
       else
-        container <<proc.call(el)
+        container << proc.call(el)
       end
     end
     container
