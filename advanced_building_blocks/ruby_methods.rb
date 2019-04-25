@@ -18,7 +18,7 @@ module Enumerable
   def my_select
     container = Array.new
     self.my_each do |element|
-      container << element if yield (element)
+      container << element if yield(element)
     end
     container
   end
@@ -45,7 +45,7 @@ module Enumerable
     if !block_given? && test.nil?
       return self.size
     end
-[]
+
     count = 0
     self.my_each do |element|
       if block_given? && yield(element)
@@ -79,7 +79,7 @@ module Enumerable
     return_val
   end
 
-
+  
 
 
 end
