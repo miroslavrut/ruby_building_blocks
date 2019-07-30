@@ -34,7 +34,7 @@ module Enumerable
     self.my_each {|element| status = true if yield(element)}
     return status
   end
-
+ 
   def my_none?
     status = true
     self.my_each {|elm| status = false if yield(elm)}
