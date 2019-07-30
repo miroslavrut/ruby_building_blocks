@@ -16,8 +16,8 @@ def caesar_cipher(input, shift)
   return letters.join("")
 end
 
-puts "String: "
-input = gets.chomp
-puts "Key: "
-key = gets.chomp.to_i
-puts caesar_cipher(input, key)
+# puts "String: "
+# input = gets.chomp
+# puts "Key: "
+# key = gets.chomp.to_i
+# puts caesar_cipher(input, key)
